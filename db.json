@@ -1,0 +1,98 @@
+{
+  "reservations": [
+    {
+      "id": 1,
+      "name": "Reserver 1",
+      "email": "qw@gmail.com",
+      "phone": "123-45-65",
+      "note": "put lavender",
+      "Date": "2022-11-09",
+      "Time": "15:03",
+      "smoking": false,
+      "table_c_id": 3
+    },
+    {
+      "id": 2,
+      "name": "Reserver 2",
+      "email": "ww@gmail.com",
+      "phone": "122-46-65",
+      "note": "put rose",
+      "Date": "2022-12-05",
+      "Time": "20:16",
+      "smoking": true,
+      "table_c_id": 1
+    },
+    {
+      "id": 3,
+      "name": "Reserver 3",
+      "email": "rt@gmail.com",
+      "phone": "423-46-85",
+      "note": "put wine",
+      "Date": "2022-11-09",
+      "Time": "14:40",
+      "smoking": false,
+      "table_c_id": 1
+    },
+    {
+      "id": 4,
+      "name": "Reserver 4",
+      "email": "fg@gmail.com",
+      "phone": "139-50-90",
+      "note": "put pomegranate syrup",
+      "Date": "2022-08-03",
+      "Time": "09:15",
+      "smoking": false,
+      "table_c_id": 4
+    },
+    {
+      "name": "Reserver 5",
+      "email": "123@gmail.com",
+      "phone": "123-12-21",
+      "note": "put nothing :D",
+      "Date": "2022-10-10",
+      "Time": "21:10",
+      "smoking": false,
+      "table_c_id": 2
+    },
+    {
+      "name": "12",
+      "email": "12",
+      "phone": "12",
+      "note": "12",
+      "Date": "2022-07-07",
+      "Time": "22:09",
+      "smoking": false,
+      "table_c_id": "3",
+      "id": 5
+    },
+    {
+      "name": "12121",
+      "email": "121212",
+      "phone": "121212",
+      "note": "121212",
+      "Date": "2022-07-01",
+      "Time": "12:12",
+      "smoking": false,
+      "table_c_id": "3",
+      "id": 6
+    }
+  ],
+  "table_counts": [
+    {
+      "id": 1,
+      "name": "2 people"
+    },
+    {
+      "id": 2,
+      "name": "3 people"
+    },
+    {
+      "id": 3,
+      "name": "4 people"
+    },
+    {
+      "id": 4,
+      "name": "5+ people"
+    }
+  ]
+}

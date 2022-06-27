@@ -1,0 +1,99 @@
+<div style="background-color:darkslategray; padding: 30px;color:white; text-align: center;">
+    <h1>I want to reserve a table</h1>
+    <p style="color:gray;">at resturant Bily mlyn</p>
+</div>
+<div style="text-align: center;margin:auto; background-color: rgb(243, 243, 243);">
+    <div style="text-align: center;margin:auto;" class="arrow-down"></div>
+
+</div>
+
+<div style="background-color:rgb(243, 243, 243);text-align: center;" class="p-5 mx-auto">
+
+    <form [formGroup]="reservForm" (ngSubmit)="createMovie()">
+        <div class="row">
+            <div class="col-6">
+                <div class="mb-2">
+        <input name="title"  type="date" class="form-control" formControlName="Date"  >
+    </div>
+    
+    
+</div>
+<div class="col-6">
+    
+    <div class="mb-2">
+        
+        <input name="title"  type="time" class="form-control" formControlName="Time"  >
+    </div>
+
+</div>
+
+</div>
+
+<div class="row">
+    <div class="col-6">
+        <div class="mb-3">
+            <div class="form-check form-switch">
+                
+                <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault" formControlName="smoking" >
+            </div>
+        </div>
+        
+        
+    </div>
+    <div class="col-6">
+     
+        
+        <div class="mb-3">
+            <div class="input-group mb-3">
+                <span class="input-group-text" id="basic-addon1"><i class="fas fa-users	" aria-hidden="true"></i>
+                </span>
+            <select  formControlName="table_c_id"  name="categoryId"  class="form-select">
+                <option *ngFor="let item of tables" [value]="item.id" >{{item.name}}</option>
+            </select>
+            </div>
+        </div>
+        
+    </div>
+    
+</div>
+    <div class="mb-3">
+        <div class="input-group mb-3">
+            <span class="input-group-text" id="basic-addon1"><i class="fa fa-user" aria-hidden="true"></i>
+            </span>
+            <input name="title"  type="text" class="form-control" formControlName="name" placeholder="Your Name"  >
+        </div>
+    </div>
+    
+    <div class="mb-3">
+        <div class="input-group mb-3">
+            <span class="input-group-text" id="basic-addon1"><i class="fa fa-envelope" aria-hidden="true"></i>
+            </span>
+            <input name="title"  type="text" class="form-control" formControlName="email" placeholder="Your Email"   >
+        </div>
+    </div>
+    
+    <div class="mb-3">
+        <div class="input-group mb-3">
+            <span class="input-group-text" id="basic-addon1"><i class="fa fa-phone" aria-hidden="true"></i>
+            </span>
+            <input name="title"  type="text" class="form-control" formControlName="phone" placeholder="Your Phone"   >
+        </div>
+    </div>
+    
+    
+    <div class="mb-5">
+        <div class="input-group mb-3">
+            <span class="input-group-text" id="basic-addon1"><i class="fas fa-sticky-note"></i></span>
+            <input name="title"  type="text" class="form-control" formControlName="note" placeholder="Your Note"   >
+        </div>
+    </div>
+    
+    
+    
+    
+    <button  type="submit" style="padding-left:40px;padding-right:40px;font-size: 2em;font-family: 'Raleway', sans-serif;"  class="btn btn-success"  >
+    Reserve a table
+</button>
+
+</form>
+</div>

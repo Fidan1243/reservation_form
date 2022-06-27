@@ -1,1 +1,18 @@
-/* You can add global styles to this file, and also import other style files */
+*{
+    font-family: 'Raleway', sans-serif;
+}
+.form-control{
+    font-size: 1.4em;
+    font-style: italic;
+}
+.input-group-text{
+    background-color: rgb(255, 255, 255);
+}
+.arrow-down {
+    width: 0; 
+    height: 0; 
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    
+    border-top: 20px solid darkslategray;
+  }
